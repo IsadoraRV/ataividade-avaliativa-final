@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <!-- Incluir jQuery via CDN -->
+    <link rel="stylesheet" href="../styles/carrinho.css">
+</head>
+<body>
+    <div id="pagina">
+        <header class="header-container">
+            <h1>FRONTEND street wear</h1>
+            <div class="menu-icon" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <nav>
+                <a href="inicio.html">Início</a>
+                <a href="cadastro.html">Cadastro</a>
+                <a href="login.html">Login</a>
+                <a href="loja.html">Loja</a>
+                <a href="about.html">Sobre nós</a>
+                <a href="carrinho.html">Carrinho de compras</a>
+                <a href="quiz.html">Quiz</a>
+            </nav>
+        </header>
+
+        <div class="carrinho-container">
+            <h1>Carrinho de Compras</h1>
+
+            <div id="carrinho">
+                <!-- Itens do carrinho serão adicionados aqui dinamicamente -->
+            </div>
+
+            <p>Total: R$<span id="total">0.00</span></p>
+
+            <button class="botao-rosa" id="adicionarItem">Adicionar Item 1</button>
+            <button class="botao-rosa" id="adicionarItem">Adicionar Item 2</button>
+            <button class="botao-rosa" id="adicionarItem">Adicionar Item 3</button>
+            <button class="botao-rosa" id="limparCarrinho">Limpar Carrinho</button>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <script src="../js/carrinho.js"></script>
+</body>
+</html>

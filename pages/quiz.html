@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Estilo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../styles/quiz.css">
+</head>
+<body>
+
+    <div id="pagina">
+        <header class="header-container">
+            <h1>FRONTEND street wear </h1>
+            <nav>
+                <a href="inicio.html">Início</a>
+                <a href="cadastro.html">Cadastro</a>
+                <a href="login.html">Login</a>
+                <a href="loja.html">Loja</a>
+                <a href="about.html">Sobre nós</a>
+                <a href="carrinho.html">Carrinho de compras</a>
+                <a href="quiz.html">Quiz</a>
+            </nav>
+        </header>
+
+        
+            <form id="quiz-form">
+            <div class="container mt-5">
+    <div class="jumbotron">
+        <h1 class="display-4">Quiz de Estilo</h1>
+        <form id="quiz-form">
+            <div class="pergunta-container">
+                <p>1. Como você descreveria seu dia a dia?</p>
+                <input type="radio" name="pergunta1" value="a" id="opcaoA">
+                <label for="opcaoA">Agitado e cheio de compromissos.</label><br>
+
+                <input type="radio" name="pergunta1" value="b" id="opcaoB">
+                <label for="opcaoB">Relaxado, gosto de ir com calma.</label><br>
+
+                <input type="radio" name="pergunta1" value="c" id="opcaoC">
+                <label for="opcaoC">Equilibrado entre trabalho e lazer.</label><br>
+            </div>
+
+            <div class="pergunta-container">
+                <p>2. Qual é sua paleta de cores favorita?</p>
+                <input type="radio" name="pergunta2" value="a" id="opcaoA2">
+                <label for="opcaoA2">Tons neutros e minimalistas.</label><br>
+            
+                <input type="radio" name="pergunta2" value="b" id="opcaoB2">
+                <label for="opcaoB2">Cores vibrantes e ousadas.</label><br>
+            
+                <input type="radio" name="pergunta2" value="c" id="opcaoC2">
+                <label for="opcaoC2">Tons suaves e clássicos.</label><br>
+            </div>
+            <div class="pergunta-container">
+                <p>3. O que você prefere vestir nos pés?</p>
+                <input type="radio" name="pergunta3" value="a" id="opcaoA3">
+                <label for="opcaoA3">Tênis modernos.</label><br>
+            
+                <input type="radio" name="pergunta3" value="b" id="opcaoB3">
+                <label for="opcaoB3">Tênis despojados.</label><br>
+            
+                <input type="radio" name="pergunta3" value="c" id="opcaoC3">
+                <label for="opcaoC3">Sapatos elegantes.</label><br>
+            </div>
+            
+            <!-- Pergunta 4 -->
+            <div class="pergunta-container">
+                <p>4. Qual acessório não pode faltar no seu look?</p>
+                <input type="radio" name="pergunta4" value="a" id="opcaoA4">
+                <label for="opcaoA4">Boné.</label><br>
+            
+                <input type="radio" name="pergunta4" value="b" id="opcaoB4">
+                <label for="opcaoB4">Pulseiras.</label><br>
+            
+                <input type="radio" name="pergunta4" value="c" id="opcaoC4">
+                <label for="opcaoC4">Relógio.</label><br>
+            </div>
+            
+            <!-- Pergunta 5 -->
+            <div class="pergunta-container">
+                <p>5. Como você escolhe suas roupas para sair?</p>
+                <input type="radio" name="pergunta5" value="a" id="opcaoA5">
+                <label for="opcaoA5">Sigo as últimas tendências da moda.</label><br>
+            
+                <input type="radio" name="pergunta5" value="b" id="opcaoB5">
+                <label for="opcaoB5">Escolho peças únicas e diferentes.</label><br>
+            
+                <input type="radio" name="pergunta5" value="c" id="opcaoC5">
+                <label for="opcaoC5">Opto por peças clássicas e versáteis.</label><br>
+            </div>
+        <div id="resultado" class="mt-3" style="display: none;">
+            <!-- Resultado final aqui -->
+        </div>
+        <button type="button" id="verResultadoBtn" class="btn btn-success mt-3">Ver Resultado</button>
+    </div>
+</div>
+                
+
+            </div>
+        </div>
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>

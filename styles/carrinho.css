@@ -1,0 +1,89 @@
+/* Estilos para o corpo da página */
+body {
+    background-color: #ffc0cb; /* Cor de fundo rosa */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Estilos para o container do cabeçalho e carrinho */
+#pagina {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../images/fundo\ de\ loja.gif);
+    overflow: hidden;
+}
+
+/* Estilos para o cabeçalho */
+.header-container {
+    background-color: rgb(230, 81, 106);
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+.header-container h1 {
+    margin: 0;
+    font-size: 2em;
+   
+}
+
+.header-container nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.header-container nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+
+/* Estilos para o carrinho de compras */
+.carrinho-container {
+    background-color: #fff; /* Cor de fundo branca para o container do carrinho */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin-top: 80px; /* Ajuste o valor conforme necessário para centralizar o carrinho */
+    position:relative; /* Garante que o margin-top funcione corretamente */
+    z-index: 200;
+}
+
+#carrinho {
+    list-style-type: none;
+    padding: 0;
+}
+
+#carrinho li {
+    background-color: #fff; /* Cor de fundo branca para cada item no carrinho */
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.botao-rosa {
+    background-color: #ff69b4; /* Cor de fundo rosa claro para botões */
+    color: #fff; /* Cor do texto branco */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.botao-rosa:hover {
+    background-color: #ff1493; /* Cor de fundo rosa mais intensa ao passar o mouse */
+}
+
+/* Outros estilos podem ser adicionados conforme necessário */

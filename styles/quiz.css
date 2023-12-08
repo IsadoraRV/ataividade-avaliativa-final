@@ -1,0 +1,52 @@
+/* Estilos para o corpo da página */
+body {
+    background-color: #ffc0cb;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Outros estilos conforme necessário */
+
+/* Estilos para o container do quiz */
+.quiz-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+/* Outros estilos conforme necessário */
+/* Estilos para o cabeçalho */
+.header-container {
+    background-color: rgb(230, 81, 106);
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+.header-container h1 {
+    margin: 0;
+    font-size: 2em;
+   
+}
+
+.header-container nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.header-container nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+}
